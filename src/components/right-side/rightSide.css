@@ -1,0 +1,67 @@
+.mainCont {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.value {
+    border: 1px solid rgb(255, 182, 72);
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 10px;
+    background-color: rgb(0, 81, 128);
+    color: rgb(255, 182, 72);
+    border-radius: 10px;
+    width: 80%;
+    align-self: center;
+}
+
+.active {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 10px;
+    background-color: rgb(224, 186, 60);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 80%;
+    align-self: center;
+}
+
+.activePrag {
+    border: 1px solid rgb(194, 24, 24);
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 10px;
+    background-color: rgb(44, 82, 250);
+    color: white;
+    border-radius: 10px;
+    width: 80%;
+    align-self: center;
+}
+
+.prag {
+    border: 1px solid rgb(243, 191, 93);
+    text-align: center;
+    padding: 0.5em;
+    margin-top: 10px;
+    background-color: rgb(0, 81, 128);
+    color: white;
+    border-radius: 10px;
+    width: 80%;
+    align-self: center;
+}
+
+.prag>div, .activePrag>div {
+    float: left;
+    border: 1px solid white;
+    padding: 0 0.5em;
+    border-radius: 10px;
+}
+
+.value>div, .active>div {
+    float: left;
+    border: 1px solid white;
+    padding: 0 0.5em;
+    border-radius: 10px;
+}

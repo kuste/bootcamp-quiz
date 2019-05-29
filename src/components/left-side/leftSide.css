@@ -1,0 +1,25 @@
+.mainContLeft {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+
+.btnContainer>button {
+    margin: 10px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4em;
+}
